@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Freelancer Custom Header Menu
+Plugin Name:Fre Custom Header Menu
 Plugin URI: http://EngineThemes.com/
-Description: Allow admin can easy custom the header menu.
+Description: Allow admin can easy custom the header menu for FreelanceEngine theme.
 Version: 1.0
 Author: EngineThemes
 Author URI: http://EngineThemes.com/
@@ -11,7 +11,7 @@ Text Domain: enginethemes
 */
 define( 'FRE_CUSTOM_MENU_URL', plugin_dir_url( __FILE__ ) );
 define( 'FRE_CUSTOM_MENU_PATH', plugin_dir_path( __FILE__ ) );
-define( 'FRE_CUSTOM_MENU_VERSION', '1.1' );
+define( 'FRE_CUSTOM_MENU_VERSION', '1.0' );
 
 Class Fre_Custom_Menu{
 	function __construct(){
