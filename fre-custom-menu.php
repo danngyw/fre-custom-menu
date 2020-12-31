@@ -4,7 +4,7 @@ Plugin Name:Fre Custom Header Menu
 Plugin URI: http://EngineThemes.com/
 Description: Allow admin can easy custom the header menu for FreelanceEngine theme.
 Version: 1.0
-Author: EngineThemes
+Author: danng
 Author URI: http://EngineThemes.com/
 License: A "Slug" license name e.g. GPL2
 Text Domain: enginethemes
