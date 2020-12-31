@@ -7,7 +7,7 @@ Version: 1.0
 Author: EngineThemes
 Author URI: http://EngineThemes.com/
 License: A "Slug" license name e.g. GPL2
-Text Domain: mje_authorize
+Text Domain: enginethemes
 */
 define( 'FRE_CUSTOM_MENU_URL', plugin_dir_url( __FILE__ ) );
 define( 'FRE_CUSTOM_MENU_PATH', plugin_dir_path( __FILE__ ) );
@@ -21,9 +21,9 @@ Class Fre_Custom_Menu{
 	}
 	function fre_register_nav_menu(){
         register_nav_menus( array(
-            'visitor_menu' => __( 'Visitor Header Menu(Fre Custom Menu)', 'text_domain' ),
-            'freelancer_menu'  => __( 'Freelancer Header Menu(Fre Custom Menu)', 'text_domain' ),
-            'employer_menu' => __( 'Employer Header Menu(Fre Custom Menu)', 'text_domain' ),
+            'visitor_menu' => __( 'Visitor Header Menu(Fre Custom Menu)', 'enginethemes' ),
+            'freelancer_menu'  => __( 'Freelancer Header Menu(Fre Custom Menu)', 'enginethemes' ),
+            'employer_menu' => __( 'Employer Header Menu(Fre Custom Menu)', 'enginethemes' ),
         ) );
     }
     function mje_request_scripts(){
