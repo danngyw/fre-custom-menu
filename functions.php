@@ -3,7 +3,7 @@ function fre_custom_header_menu() {
     global $user_ID;
 	$theme_location ='visitor_menu';
 
-
+    $user_role = '';
     if( ! is_user_logged_in() ){
         $theme_location = 'visitor_menu';
     } else {
