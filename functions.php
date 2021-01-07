@@ -14,9 +14,11 @@ function fre_custom_header_menu() {
             $theme_location = 'employer_menu';
         }
     }
-    $nav_cache = get_transient($theme_location);
 
-
+    // $locations = get_theme_mod( 'nav_menu_locations' );
+    // echo '<pre>';
+    // var_dump($locations);
+    // echo '</pre>';
 
     if ( ($theme_location) && ($locations = get_nav_menu_locations()) && isset($locations[$theme_location])  ) {
         $css_class = 'fre-custom-menu  fre-user-role-'.$user_role.'-menu fre-menu-lation-'.$theme_location;
@@ -29,7 +31,7 @@ function fre_custom_header_menu() {
         	)
         );
         echo '</div>';
-    } else{
+    } else {
     	get_template_part( 'template/header', 'menu' );
     }
 
